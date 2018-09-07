@@ -64,7 +64,7 @@ public class SlickFlyingGame extends BasicGame {
 			timer = 0f;
 		} else {timer+=delta;}
 		if (timer>2500f) {
-			System.exit(0);
+			//System.exit(0);
 		}
 	}
 
