@@ -74,6 +74,8 @@ public class SlickFlyingGame extends BasicGame {
 		player.render();
 		balloon.drawCentered(balloonX, balloonY);
 		g.drawString("Kill count =   "+killCount , 25, 90);
+		g.drawString("dx = "+player.getDX()+"   dy = "+player.getDY(), 25, 55);
+		g.drawString("SPEED = "+Math.sqrt(Math.pow(player.getDX(), 2)+Math.pow(player.getDY(), 2)), 25, 200);
 	}
 
 	public static void main(String[] args) {
